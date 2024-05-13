@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeeMAUIApp.EmployeeDetailPage"
+             Title="EmployeeDetailPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Padding="10">
+            <Frame BackgroundColor="LightGray">
+                <Entry x:Name="EmployeeName" Text="{Binding EmployeeName, Mode=TwoWay}" Placeholder="Enter Name"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <DatePicker x:Name="JoinDate" Date="{Binding JoinDate, Mode=TwoWay}"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <Entry Placeholder="Enter salary" x:Name="Salary" Text="{Binding Salary, Mode=TwoWay}"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <Switch x:Name="IsActive" IsToggled="{Binding IsActive, Mode=TwoWay}"/>
+            </Frame>
+
+            <Frame BackgroundColor="LightGray">
+                <Image Source="{Binding ImageUrl , Converter={StaticResource Base64ToImageConverter}}" HeightRequest="200" x:Name="Upload"/>
+            </Frame>
+            <Button x:Name="btnUpload" Text="Upload" HorizontalOptions="End" Clicked="btnUpload_Clicked"/>
+            <Frame BackgroundColor="LightGray">
+                <Button x:Name="btnAddEmployee" Text="Add Employee" HorizontalOptions="End" Clicked="btnAddEmployee_Clicked_1"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <Button x:Name="btnUpdateEmployee" Text="Update Employee" 
+              HorizontalOptions="End" Clicked="btnUpdateEmployee_Clicked"/>
+            </Frame>
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

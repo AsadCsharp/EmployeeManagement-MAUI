@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="EmployeeMAUIApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:EmployeeMAUIApp"
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="Navy"
+    Title="EmployeeMAUIApp">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+    Title="Employee List"
+    Icon="file_cabinet.png"
+    ContentTemplate="{DataTemplate local:EmployeesPage}"
+    Route="EmployeesPage" />
+
+</Shell>

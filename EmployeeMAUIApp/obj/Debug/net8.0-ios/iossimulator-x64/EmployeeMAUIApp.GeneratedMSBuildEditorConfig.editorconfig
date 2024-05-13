@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmployeeMAUIApp
+build_property.ProjectDir = D:\CSharp_Course\MAUI\Practices\1277484_Asad\EmployeeMAUIApp\EmployeeMAUIApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/EmployeeDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.EmployeeDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EmployeeDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EmployeeDetailPage.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/EmployeesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.EmployeesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EmployeesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EmployeesPage.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/CSharp_Course/MAUI/Practices/1277484_Asad/EmployeeMAUIApp/EmployeeMAUIApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EmployeeMAUIApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
